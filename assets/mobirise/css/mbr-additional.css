@@ -3846,8 +3846,13 @@ a {
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
+.cid-sblqy1zIVC .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .cid-sblqy1zIVC .item {
-  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 .cid-sblqy1zIVC .item-wrapper {
   position: relative;
