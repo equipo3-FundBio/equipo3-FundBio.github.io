@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Infraktur",
-    "currentPage": "page5.html",
+    "currentPage": "page6.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -57,7 +57,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
