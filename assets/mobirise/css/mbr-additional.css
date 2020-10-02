@@ -41,11 +41,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1rem;
+  font-size: 1.0625rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -79,9 +79,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.64rem;
-    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.68rem;
+    font-size: calc( 0.9475rem + (0.85 - 0.9475) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.9475rem + (0.85 - 0.9475) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1046,7 +1046,7 @@ a {
 .cid-sb6GMJqqSf {
   padding-top: 2rem;
   padding-bottom: 0rem;
-  background-color: #40b0bf;
+  background-color: #bed3f9;
 }
 @media (max-width: 991px) {
   .cid-sb6GMJqqSf .image-wrapper {
@@ -1062,13 +1062,13 @@ a {
   }
 }
 .cid-sb6GMJqqSf .mbr-text {
-  color: #ffffff;
+  color: #232323;
 }
 .cid-sb6GMJqqSf .mbr-section-title {
-  color: #ffffff;
+  color: #232323;
 }
 .cid-sb6GMJqqSf .mbr-description {
-  color: #ffffff;
+  color: #095d74;
 }
 .cid-sb7cBizu4x {
   padding-top: 0rem;
@@ -3605,7 +3605,7 @@ a {
   background-color: #ffffff;
 }
 .cid-sbi7lBONpQ .line {
-  background-color: #ff6666;
+  background-color: #095d74;
   align: center;
   height: 2px;
   margin: 0 auto;
