@@ -7550,6 +7550,22 @@ a {
   object-fit: cover;
   min-height: 1px;
 }
+.cid-sdpi5UFPQD {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sdpi5UFPQD .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sdpi5UFPQD .row {
+  flex-direction: row-reverse;
+}
+.cid-sdpi5UFPQD img {
+  width: 100%;
+}
 .cid-sb7eMjPv9O {
   padding-top: 6rem;
   padding-bottom: 6rem;
