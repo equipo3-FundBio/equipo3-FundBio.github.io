@@ -7505,7 +7505,7 @@ a {
   width: 100%;
 }
 .cid-sdmuU3bcAc .mbr-description {
-  text-align: left;
+  text-align: justify;
 }
 .cid-sdmvB83zxm {
   padding-top: 2rem;
@@ -7567,12 +7567,7 @@ a {
   padding-right: 0;
 }
 .cid-sdBtqVYOOP .item-wrapper {
-  height: 100%;
   position: relative;
-}
-.cid-sdBtqVYOOP .item-wrapper img {
-  height: 100%;
-  object-fit: cover;
 }
 .cid-sdBtqVYOOP .item-wrapper .icon-wrapper {
   pointer-events: none;
