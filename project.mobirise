@@ -11016,7 +11016,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<center><iframe name=\"Framename\" src=\"https://marvelapp.com/prototype/f7heccb/screen/73682369\" width=\"250\" height=\"900\" frameborder=\"50\" marginheight=\"0\" marginwidth=\"50\" scrolling=\"yes\" style=\"width: 100%;\"> </iframe></center>",
+          "_customHTML": "<center><iframe name=\"Framename\" src=\"https://marvelapp.com/prototype/f7heccb/screen/73682369\" width=\"50\" height=\"900\" frameborder=\"100\" marginheight=\"0\" marginwidth=\"100\" scrolling=\"yes\" style=\"width: 100%;\"> </iframe></center>",
           "_cid": "sf9oUuBuHD",
           "_anchor": "custom-html-5x",
           "_protectedParams": [],
