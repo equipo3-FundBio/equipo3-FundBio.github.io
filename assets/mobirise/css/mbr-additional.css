@@ -8535,7 +8535,7 @@ a.nav-link {
 }
 }
 
-.cid-sfcOkYoIz8 {
+.cid-sfcUA7UrwT {
 @fullScreen: false;
 @fullWidth: false;
 @paddingTop: 6;
@@ -8543,29 +8543,58 @@ a.nav-link {
 @textWidth: 10;
 @contentAlign: "justify-content-center";
 @showTitle: true;
-@showSubitle: true;
-@showText: false;
+@showSubitle: false;
+@showText: true;
 @showButtons: false;
-@uname__15: "file:///C:/Users/ACER%20I5/Downloads/pagina3/New%20folder/assets/images/mbr-560x337.jpg";
-@uname__16: false;
-@uname__17: #4479d9;
+@showSocial: false;
+@socialCount: 3;
+@socialIconColor: #232323;
+@uname__17: "file:///C:/Users/ACER%20I5/Downloads/pagina3/New%20folder/assets/images/mbr-560x337.jpg";
+@uname__18: false;
+@uname__19: #ffffff;
 @bg-value: "file:///C:/Users/ACER%20I5/Downloads/pagina3/New%20folder/assets/images/mbr-560x337.jpg";
 @bg-type: "image";
-@bg-color-value: #4479d9;
+@bg-color-value: #ffffff;
 @bg-parallax: false;
 @overlay: true;
-@overlayColor: #095d74;
+@overlayColor: #0f7699;
 @overlayOpacity: 0.5;
 
 & when not (@fullScreen) {
   padding-top: (@paddingTop * 1rem);
   padding-bottom: (@paddingBottom * 1rem);
 }
-& when (@bg-type = 'image') {
+& when (@bg-type = "image") {
   background-image: url(../../../@bg-value);
 }
-& when (@bg-type = 'color') {
+& when (@bg-type = "color") {
   background-color: @bg-value;
+}
+.social-row {
+  .soc-item {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: .7rem;
+    .mbr-iconfont {
+      font-size: 32px;
+      border-radius: 50%;
+      padding: 0.6rem;
+      border: 2px solid @socialIconColor;
+      transition: all 0.3s;
+      color: @socialIconColor;
+      &:hover {
+        background-color: @socialIconColor;
+        color: contrast(@socialIconColor);
+      }
+    }
+  }
+}
+.mbr-section-title {
+  color: #ffffff;
+}
+.mbr-text, .mbr-section-btn, .social-row {
+  color: #ffffff;
 }
 }
 
